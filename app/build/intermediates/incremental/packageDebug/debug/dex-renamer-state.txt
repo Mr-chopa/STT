@@ -1,0 +1,4 @@
+#Fri Jan 05 14:43:35 KST 2018
+base.0=/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

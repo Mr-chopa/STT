@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.0.aar/9440f6ce3cd46de7535000303696882f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.0.aar/66811f41379725415608b3ba0a8aba8a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/01dcf88f40167039aa4b4a066fab46a9/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/01dcf88f40167039aa4b4a066fab46a9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.0.aar/d49c1e9860df65b5c8d28f183a860ecc/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/f83cbcd7527e58dbb0e9697ba0a008d4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/util-1.2.2.aar/dc4cc6e61267e3665c434ace11f184e4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5c3fc6f9fc9da7044a4ae48cfd0fa7a27edf2437">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/newtone.core-1.1.1.OpenApi.aar/dd57d299adf0a1f9b4017718f5ab3823/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14e9046d3e5cccff8065a6738ddd1e7054722378">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.0.aar/fb6b3eeb63de321b10d5e74b869ff554/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.0.aar/fb6b3eeb63de321b10d5e74b869ff554/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/newtone.core-1.1.3.OpenApi.aar/385d2321cc743ab6f4bb03b4b2d504f4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="039612c96d359fb1a505f0ffcd5cb5e6de5f5fca">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.0.aar/66811f41379725415608b3ba0a8aba8a/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.0.aar/d8eef5205afe488e8f033fcf60e552da/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/network-1.1.36.aar/c0f4be36a6d0fa5f6bd498dbd0f984df/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a099dd816a6af6f86090fad12a0f3b36df88833">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85947a9e6da17f9b9bbf7d127851aba/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85947a9e6da17f9b9bbf7d127851aba/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.0.aar/cb6d224ae8e8d200db6fde1d395faae9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/newtone-6.0.1.aar/520a3997d5d1cab029ea7c91368a9885/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e6c5a5f1001f7b8ef49ccad45fe6eb6f1d426fae">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.0.aar/d49c1e9860df65b5c8d28f183a860ecc/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+
+</items>
