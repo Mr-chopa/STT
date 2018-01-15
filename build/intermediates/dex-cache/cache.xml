@@ -53,6 +53,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/chopa/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/chopa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
         jumboMode="false"
         min-sdk-version="14"
@@ -60,6 +70,16 @@
         revision="26.0.2"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
         <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chopa/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1ca0662456cf64d460776c5ee07197f6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/preDex/release/21.jar" />
     </item>
     <item
         is-multidex="false"

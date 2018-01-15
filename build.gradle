@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
 
     dependencies {
@@ -11,6 +12,8 @@ buildscript {
 
 subprojects {
     repositories {
+        google()
+
         jcenter()
         maven { url 'http://repo.maven.apache.org/maven2' }
 

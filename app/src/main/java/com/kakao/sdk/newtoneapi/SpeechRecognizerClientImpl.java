@@ -14,24 +14,16 @@ import android.os.Looper;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.dialoid.speech.recognition.FileSpeechReader;
 import com.dialoid.speech.recognition.SpeechReader;
 import com.dialoid.speech.recognition.SpeechRecognizer;
-import com.kakao.sdk.newtone.sample.SpeechSampleActivity;
-import com.kakao.sdk.newtoneapi.SpeechRecognizeListener;
-import com.kakao.sdk.newtoneapi.SpeechRecognizerClient;
+import com.kakao.sdk.newtone.custom.Printer;
 import com.kakao.util.helper.CommonProtocol;
 import com.kakao.util.helper.SystemInfo;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.UnsupportedEncodingException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -319,7 +311,6 @@ public class SpeechRecognizerClientImpl {
         @Override
         public void onError(int code, String msg) {
             Log.d(TAG, "[onError] : " + code + " msg : " + msg);
-            printLog("[onError] : " + code + " msg : " + msg);
 
             if (alreadyError) {
                 return;
@@ -522,15 +513,7 @@ public class SpeechRecognizerClientImpl {
                 beforeReady = true;
             }
         } catch(Throwable e) {
-            StringBuilder sb = new StringBuilder();
-            sb.append(e.getMessage());
-            sb.append("\n");
-
-            for(StackTraceElement el : e.getStackTrace()) {
-                sb.append(el.getFileName()+"."+el.getMethodName()+":"+el.getLineNumber()).append("\n");
-            }
-
-            printLog(sb.toString());
+            Printer.error(e);
         }
 
         return true;
@@ -758,33 +741,6 @@ public class SpeechRecognizerClientImpl {
 //
 
             return new SpeechRecognizerClientImpl(this);
-        }
-    }
-
-    private void printLog(String str) {
-        String sdPath = Environment.getExternalStorageDirectory().getAbsolutePath()+"/speech";
-        File file = new File(sdPath+"/SpeechClient.txt");
-
-        FileOutputStream fos = null;
-
-        try {
-            fos = new FileOutputStream(file, true);
-
-            Calendar cal = Calendar.getInstance();
-
-            StringBuilder sb = new StringBuilder();
-
-            sb.append("["+(cal.get(Calendar.HOUR_OF_DAY)+":"+cal.get(Calendar.MINUTE)+":"+cal.get(Calendar.SECOND)+"."+cal.get(Calendar.MILLISECOND)));
-            sb.append("] ");
-            sb.append(str);
-            sb.append("\n");
-
-            fos.write(sb.toString().getBytes("UTF-8"));
-            fos.flush();
-
-            fos.close();
-        } catch(Exception e) {
-            try {if (fos != null) fos.close(); }catch (Exception ex1){}
         }
     }
 }

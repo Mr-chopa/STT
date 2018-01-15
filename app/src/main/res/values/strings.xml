@@ -14,12 +14,12 @@
     <string name="stop_button">Stop</string>
     <string name="ui_button">Open Activity</string>
     <string name="tts_button">Open TTS</string>
-    
+
     <string name="radio_web">웹검색</string>
     <string name="radio_local">지도</string>
     <string name="radio_dictation">연속어</string>
     <string name="radio_word">고립어</string>
-    
+
     <string name="initial_words">이전\n선택\n다음</string>
 
     <string name="mode_select_title">합성방식선택</string>

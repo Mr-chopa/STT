@@ -24,18 +24,13 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/newtone_icon"
-        android:label="@string/app_name"
+        android:label="SpeechToText"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.kakao.sdk.newtone.sample.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.kakao.sdk.newtone.sample.SpeechSampleActivity"
@@ -57,6 +52,24 @@
             android:name="com.kakao.sdk.newtone.sample.TextToSpeechActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.kakao.sdk.newtone.sample.MainActivity"
+            android:label="SpeechToText"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+        </activity>
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
