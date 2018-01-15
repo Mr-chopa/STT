@@ -1,4 +1,4 @@
-#Thu Jan 11 17:47:23 KST 2018
+#Mon Jan 15 13:51:04 KST 2018
 base.0=/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/dex/release/0
 path.0=classes.dex
 renamed.0=classes.dex

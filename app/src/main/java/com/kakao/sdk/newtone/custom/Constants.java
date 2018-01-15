@@ -29,6 +29,9 @@ public final class Constants {
     /** 디버그 출력 여부 */
     public static final boolean DEFAULT_PRINT_DEBUG = false;
 
+    /** 기본 보정값 */
+    public static final int DEFAULT_CORRECTION_VALUE = 0;
+
     /** 기본 App key */
     public static final String DEFAULT_APP_KEY = "8338b6a7ca17e2e3ac9ce610aea67421";
 

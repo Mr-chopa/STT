@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
+ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
 MERGED from [com.kakao.sdk:newtone:6.0.1] /Users/chopa/.gradle/caches/transforms-1/files-1.1/newtone-6.0.1.aar/520a3997d5d1cab029ea7c91368a9885/AndroidManifest.xml:2:1-16:12
 MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/chopa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/f83cbcd7527e58dbb0e9697ba0a008d4/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/chopa/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1ca0662456cf64d460776c5ee07197f6/AndroidManifest.xml:2:1-11:12
@@ -18,20 +18,20 @@ MERGED from [com.android.support:support-media-compat:25.0.0] /Users/chopa/.grad
 MERGED from [com.android.support:support-core-utils:25.0.0] /Users/chopa/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/01dcf88f40167039aa4b4a066fab46a9/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-ui:25.0.0] /Users/chopa/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.0.aar/d49c1e9860df65b5c8d28f183a860ecc/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:25.0.0] /Users/chopa/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85947a9e6da17f9b9bbf7d127851aba/AndroidManifest.xml:17:1-27:12
-INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
 	package
 		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-70:12
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:2:11-69
@@ -64,7 +64,7 @@ MERGED from [com.kakao.sdk:newtone:6.0.1] /Users/chopa/.gradle/caches/transforms
 	android:name
 		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:9:22-65
 application
-ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:18:5-68:19
+ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:18:5-69:19
 MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/chopa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/f83cbcd7527e58dbb0e9697ba0a008d4/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/chopa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/f83cbcd7527e58dbb0e9697ba0a008d4/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/chopa/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1ca0662456cf64d460776c5ee07197f6/AndroidManifest.xml:9:5-20
@@ -86,7 +86,7 @@ MERGED from [com.android.support:support-core-ui:25.0.0] /Users/chopa/.gradle/ca
 MERGED from [com.android.support:support-compat:25.0.0] /Users/chopa/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85947a9e6da17f9b9bbf7d127851aba/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] /Users/chopa/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85947a9e6da17f9b9bbf7d127851aba/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:21:9-41
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:21:9-37
 	android:icon
 		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:20:9-46
 	android:allowBackup
@@ -142,29 +142,31 @@ ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/
 	android:name
 		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:46:13-49
 activity#com.kakao.sdk.newtone.sample.MainActivity
-ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:49:9-63:20
+ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:49:9-64:20
 	android:screenOrientation
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:51:13-41
 	android:theme
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:52:13-71
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:53:13-44
 	android:name
 		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:50:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:54:13-57:29
+ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:55:13-58:29
 action#android.intent.action.MAIN
-ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:55:17-69
+ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:55:25-66
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:56:17-77
+ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:57:17-77
 	android:name
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:56:27-74
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:57:27-74
 meta-data#com.kakao.sdk.AppKey
-ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:65:9-67:53
+ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:66:9-68:53
 	android:value
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:67:13-50
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:68:13-50
 	android:name
-		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:66:13-48
+		ADDED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml:67:13-48
 uses-sdk
 INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/src/main/AndroidManifest.xml

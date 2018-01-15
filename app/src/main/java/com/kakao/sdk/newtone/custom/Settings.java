@@ -43,6 +43,7 @@ public class Settings {
      */
     public enum Attribute {
         debug("디버그 출력 여부", Boolean.toString(Constants.DEFAULT_PRINT_DEBUG)),
+        correctionValue("보정값", Integer.toString(Constants.DEFAULT_CORRECTION_VALUE)),
         appKey("AppKey", Constants.DEFAULT_APP_KEY);
 
         private final String description;

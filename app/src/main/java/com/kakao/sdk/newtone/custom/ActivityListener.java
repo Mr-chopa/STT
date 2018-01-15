@@ -2,6 +2,8 @@ package com.kakao.sdk.newtone.custom;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,7 +25,7 @@ import java.text.SimpleDateFormat;
  * Created by chopa on 2018. 1. 9..
  */
 
-public class ActivityListener implements View.OnClickListener, View.OnFocusChangeListener, RadioGroup.OnCheckedChangeListener {
+public class ActivityListener implements View.OnClickListener, RadioGroup.OnCheckedChangeListener {
     private MainActivity activity;
 
     private SimpleDateFormat sdf;
@@ -47,32 +49,6 @@ public class ActivityListener implements View.OnClickListener, View.OnFocusChang
             // 클립보드 복사 버튼
             else if(id == R.id.copyClipboard) {
                 processCopyClipboard();
-            }
-        } catch(Exception e) {
-            Printer.error(e);
-
-            throw new RuntimeException(e);
-        }
-    }
-
-    @Override
-    public void onFocusChange(View view, boolean hasFocus) {
-        try {
-            int id = view.getId();
-
-            // 포커스 상실 시
-            if(!hasFocus) {
-                Printer.debug("app key 값 변경");
-
-                // app key 값 변경 이벤트 처리
-                if (id == R.id.appKey) {
-                    Settings.set(
-                            Settings.Attribute.appKey,
-                            ((EditText)activity.findViewById(R.id.appKey)).getText().toString()
-                    );
-
-                    Settings.save();
-                }
             }
         } catch(Exception e) {
             Printer.error(e);

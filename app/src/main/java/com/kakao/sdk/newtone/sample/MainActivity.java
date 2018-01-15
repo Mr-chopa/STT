@@ -19,7 +19,9 @@ import android.widget.Toast;
 
 import com.dialoid.speech.recognition.SpeechReader;
 import com.kakao.sdk.newtone.custom.ActivityListener;
+import com.kakao.sdk.newtone.custom.AppKeyListener;
 import com.kakao.sdk.newtone.custom.Constants;
+import com.kakao.sdk.newtone.custom.CorrectionValueListener;
 import com.kakao.sdk.newtone.custom.Printer;
 import com.kakao.sdk.newtone.custom.Settings;
 import com.kakao.sdk.newtone.custom.UncaughtExceptionHandlerApplication;
@@ -121,6 +123,9 @@ public class MainActivity extends AppCompatActivity implements SpeechRecognizeLi
             findViewById(R.id.copyClipboard).setEnabled(false);
             initViewComponent();
 
+            // 보정값 로딩
+            ((EditText) findViewById(R.id.correctionValue)).setText(Settings.get(Settings.Attribute.correctionValue));
+
             // appKey 로딩
             ((EditText) findViewById(R.id.appKey)).setText(Settings.get(Settings.Attribute.appKey));
 
@@ -139,7 +144,8 @@ public class MainActivity extends AppCompatActivity implements SpeechRecognizeLi
             ActivityListener activityListener = new ActivityListener(this);
             findViewById(R.id.startButton).setOnClickListener(activityListener);
             findViewById(R.id.copyClipboard).setOnClickListener(activityListener);
-            findViewById(R.id.appKey).setOnFocusChangeListener(activityListener);
+            ((EditText)findViewById(R.id.correctionValue)).addTextChangedListener(new CorrectionValueListener());
+            ((EditText)findViewById(R.id.appKey)).addTextChangedListener(new AppKeyListener());
             ((RadioGroup) findViewById(R.id.logMode)).setOnCheckedChangeListener(activityListener);
 
             // Intent 수신

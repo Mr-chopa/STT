@@ -4,6 +4,7 @@ import android.os.Environment;
 
 import com.dialoid.speech.recognition.SpeechReader;
 import com.kakao.sdk.newtone.custom.Printer;
+import com.kakao.sdk.newtone.custom.Settings;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -42,7 +43,7 @@ public class FileSpeechReaderImpl implements SpeechReader {
     private int preNum = 0;
 
     /** 전송 재개 시 재전송할 이전 데이터 개수(10ms = 0.01초 단위) */
-    private int reSendCount = 20;
+    private int reSendCount = 0;
 
     private LinkedList<short[]> preList = new LinkedList<short[]>();
 
@@ -111,6 +112,8 @@ public class FileSpeechReaderImpl implements SpeechReader {
                 totalSize = mFile.length();
                 this.mFileInputStream = new FileInputStream(this.mFile);
             }
+
+            reSendCount = Integer.parseInt(Settings.get(Settings.Attribute.correctionValue), 20);
 
             return true;
         } catch (FileNotFoundException var3) {
@@ -183,7 +186,7 @@ public class FileSpeechReaderImpl implements SpeechReader {
         }
         else {
             // 2라운드 이상에서 첫번째 호출일 경우 이전 라운드의 마지막 데이터를 한번 더 전송
-            if (round > 0 && curCycle < reSendCount && preNum > 0) {
+            if (round > 0 && curCycle < reSendCount && preNum > 0 && !preList.isEmpty()) {
                 Printer.debug("이전 round 마지막 데이터 한번 더 전송 - " + curCycle);
 
                 preSpeeches = preList.pop();

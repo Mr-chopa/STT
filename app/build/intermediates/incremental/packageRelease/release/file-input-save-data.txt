@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jan 11 17:47:23 KST 2018
+#Mon Jan 15 13:51:05 KST 2018
 1.base=/Users/chopa/app/as_workspace/kakao-android-sdk-speech-6.0.1/app/build/intermediates/transforms/dex/release/0
 2.path=lib/arm64-v8a/libdialoid-apklib.so
 0.baseType=DIRECTORY
